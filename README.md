@@ -23,7 +23,7 @@ This module relies on having the `zabbix_sender` binary installed, and on `/etc/
 
 Begin by installing the module (as root) on the server that you run PM2 on:
 ```
-# npm install -g pm2-zabbix
+# npm i -g @horsewiththeosteohondrose/pm2-zabbix
 ```
 
 This installs a `pm2-zabbix` executable in your **$PATH**. Alternatively, you can choose a directory to your liking and perform a local install there, or clone this repository - the relevant script is `monitor.js`.
