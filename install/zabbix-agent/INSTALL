@@ -1,4 +1,4 @@
-Install the pm2-zabbix.conf file in /etc/zabbix/zabbix_agentd.d/ on the host that runs pm2. It needs to have zabbix-agent installed, as well as a global install of the pm2-zabbix npm module.
+Install the pm2-zabbix.conf file in /etc/zabbix/zabbix_agent2.d/ on the host that runs pm2. It needs to have zabbix-agent installed, as well as a global install of the pm2-zabbix npm module.
 If you are running pm2 on a user other than the default of "centos", make sure to change the sudo invocation.
 
 The pm2-zabbix-sudoers file should be saved as /etc/sudoers.d/pm2-zabbix (without any extension - sudo ignores any files containing dots or "~") on the same host.
