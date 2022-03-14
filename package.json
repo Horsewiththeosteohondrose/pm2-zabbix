@@ -1,5 +1,5 @@
 {
-  "name": "@cryptonteam/pm2-zabbix",
+  "name": "@horsewiththeosteohondrose/pm2-zabbix",
   "version": "0.0.2",
   "description": "a pm2 monitoring utility for Zabbix that runs in the background",
   "keywords": [
@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CryptonStudio/pm2-zabbix.git"
+    "url": "https://github.com/Horsewiththeosteohondrose/pm2-zabbix.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,6 +27,6 @@
     "pidusage": "^2.0.21",
     "pm2": "^5.1.1",
     "when": "^3.7.8",
-    "zabbix-sender": "github:greatcare/node-zabbix-sender#v0.3.0"
+    "zabbix-sender": "github:Horsewiththeosteohondrose/node-zabbix-sender"
   }
 }
