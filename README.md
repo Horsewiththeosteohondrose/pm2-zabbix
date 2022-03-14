@@ -1,4 +1,4 @@
-# PM2 monitoring tool for Zabbix
+# PM2 monitoring tool for Zabbix agent version 2
 
 ## What it is
 This is a Node.js-powered daemon and utility that monitors a [PM2](https://github.com/Unitech/pm2) instance and sends status updates to the Zabbix server monitoring solution.
